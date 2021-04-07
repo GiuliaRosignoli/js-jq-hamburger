@@ -1,11 +1,13 @@
-// hamburgher menu
 
+// hamburger menu
 
 
 var fas = $(".fas");
+var hamburgerMenu = $(".hamburger-menu")
 
+
+// onclick event 
 
 fas.click(function() {
-    fas.toggleClass("hamburgermenu");
-
+    hamburgerMenu.toggleClass();
 });
