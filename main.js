@@ -3,11 +3,19 @@
 
 
 var fas = $(".fas");
-var hamburgerMenu = $(".hamburger-menu")
+var hamburgerMenu = $(".hamburger-menu");
 
 
 // onclick event 
 
+// Fade In
+
 fas.click(function() {
-    hamburgerMenu.toggleClass();
+    hamburgerMenu.fadeIn();
+});
+
+// Fade Out
+
+fas.click(function() {
+    hamburgerMenu.fadeOut();
 });
